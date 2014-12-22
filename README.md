@@ -14,7 +14,9 @@ This project's goals are:
 Install
 -------
 
-This code was developed on a 3.2.44 linux kernel and tested up to 3.2.51. It should not be hard to adapt it to older kernels and 3.4.x series. Bigger changes are required for 3.10+ kernel series.
+This code was developed on a 3.2.44 linux kernel and tested up to 3.2.51.
+It should not be hard to adapt it to older kernels and 3.4.x series.
+Bigger changes are required for 3.10+ kernel series.
 
 - To patch a kernel tree:
 
@@ -52,7 +54,6 @@ The `eoip.ko` module cannot operate properly without the newly built version of 
 cd path-to-eoip
 make
 ```
-
 
 Userland management utility
 ---------------------------
