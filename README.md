@@ -115,7 +115,8 @@ This code was developed based on information gathered from sniffed datagrams and
 
 The protocol is not documented and although it looks like there are no deviations in the header format this cannot be guaranteed in all environments or for future releases of the commercial product
 
-- Protocol spec
+Protocol spec
+-------------
 
 After the IP header (which can be fragmented, MTU 1500 is usually used for tunnels) a GRE-like datagram follows.
 Note that RFC 1701 is mentioned in MikroTik's docs but there is nothing in common between the standard and the actual protocol used.
@@ -136,7 +137,8 @@ Header format (taken from https://github.com/katuma/eoip):
 Strangely enough the frame length is kept into network byte order and tunnel ID is in little endian byte order.
 
 
-- Bugs
+Bugs
+----
 
 This code was tested and works without problems on quite a few different 32/64bit x86 systems.
 
@@ -145,7 +147,8 @@ No testing was done on non-x86 and big endian hardware.
 There is no guarantee that there are no bugs left. Patches are welcome.
 
 
-- License
+License
+-------
 
 All code and code modifications in this project are released under the GPL licence. Look at the COPYING file.
 
